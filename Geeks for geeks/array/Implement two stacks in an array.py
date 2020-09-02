@@ -33,6 +33,7 @@ Expected Auxiliary Space: O(1) for all the four methods.
 Constraints:
 1 <= Number of queries <= 100
 1 <= value in the stack <= 100
+
 """
 
 
