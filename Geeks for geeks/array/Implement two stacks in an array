@@ -1,8 +1,47 @@
+"""
+Your task is to implement  2 stacks in one array efficiently .
+
+Example 1:
+
+Input:
+push1(2)
+push1(3)
+push2(4)
+pop1()
+pop2()
+pop2()
+Output:
+3 4 -1
+Explanation:
+push1(2) the stack1 will be {2}
+push1(3) the stack1 will be {2,3}
+push2(4) the stack2 will be {4}
+pop1()   the poped element will be 3
+from stack1 and stack1 will be {2}
+pop2()   the poped element will be 4
+from stack2 and now stack2 is empty
+pop2()   the stack2 is now empty hence -1 .
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the provided functions.
+You are required to complete the 4 methods push1, push2 which takes one argument an integer 'x' to be pushed into
+the stack one and two and pop1, pop2 which returns the integer poped out from stack one and two (if no integer is
+present in the array return -1)
+
+Expected Time Complexity: O(1) for all the four methods.
+Expected Auxiliary Space: O(1) for all the four methods.
+
+Constraints:
+1 <= Number of queries <= 100
+1 <= value in the stack <= 100
+"""
+
+
+
 #User function Template for python3
 
 '''
 Function Arguments :
-		@param  : a (auxilary array),
+		@param  : a (auxilary array), 
 		top1 and top2 are declared as two tops of stack.
 		# initialized value of  tops of the two stacks
         top1 = -1
@@ -13,23 +52,31 @@ Function Arguments :
 def pop1(a):
     #code here
     global top1
-    top1-=1
-    return a.pop(top1+1)
+    if top1 == -1:
+        pop = -1
+    else:
+        pop = a[top1]
+        top1 -= 1
+    return pop
 def pop2(a):
     #code here
     global top2
-    top2=-1
-    return a.pop(top2+1)
+    if top2 == 101:
+        pop = -1
+    else:
+        pop = a[top2]
+        top2 += 1
+    return pop
 def push1(a,x):
     #code here
     global top1
-    top1+=1
+    top1 += 1
     a[top1] = x
 def push2(a,x):
     #code here
     global top2
-    top2 += 1
-    a.append(x)
+    top2 -= 1
+    a[top2] = x
 
 
 
