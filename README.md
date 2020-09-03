@@ -1,6 +1,6 @@
 # 100 Days Challenge
 
-# `Sept 01, 2020`
+### `Sept 01, 2020`
 
 Geeks for geeks/array/Maximum profit by buying and selling a share at most k times.py
 
@@ -15,7 +15,7 @@ Geeks for geeks/array/stock buy sell.py
 Geeks for geeks/array/Two Repeated Elements.py
 
 
-# `Sept 02, 2020`
+### `Sept 02, 2020`
 
 Geeks for geeks/array/Row with max 1s.py
 
@@ -30,10 +30,13 @@ Geeks for geeks/array/Array Subset of another array.py
 Geeks for geeks/array/Implement two stacks in an array
 
 
-# `Sept 03, 2020`
+### `Sept 03, 2020`
 
 Geeks for geeks/strings/Check if strings are rotations of each other or not.py
 
 Geeks for geeks/strings/Interleaving of two given strings with no common characters.py
 
 Geeks for geeks/strings/Remove all duplicates from a given string.py
+
+Geeks for geeks/strings/Longest Palindrome in a String.py
+
