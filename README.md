@@ -40,3 +40,17 @@ Geeks for geeks/strings/Remove all duplicates from a given string.py
 
 Geeks for geeks/strings/Longest Palindrome in a String.py
 
+### `Sept 04, 2020`
+
+Foobar challenge/Level 3/Doomsday Fuel.py
+
+Foobar challenge/Level 3/Find the access codes.py
+
+Foobar challenge/Level 3/Fuel injection perfection.py
+
+Foobar challenge/Elevator maintenance .py
+
+### `Sept 05, 2020`
+
+Geeks for geeks/strings/Longest Repeating Subsequence.py
+
