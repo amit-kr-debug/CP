@@ -61,3 +61,12 @@ Geeks for geeks/stacks/nearest smallest to right.py
 Geeks for geeks/stacks/nearest smallest to left.py
 
 ### `Sept 06, 2020`
+
+Geeks for geeks/stacks/stock span.py
+
+Geeks for geeks/stacks/Parenthesis Checker.py
+
+Geeks for geeks/stacks/Reverse words in a given string.py
+
+Geeks for geeks/stacks/Maximum Rectangular Area in a Histogram.py
+
