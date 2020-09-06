@@ -52,5 +52,12 @@ Foobar challenge/Elevator maintenance .py
 
 ### `Sept 05, 2020`
 
-Geeks for geeks/strings/Longest Repeating Subsequence.py
+Geeks for geeks/stacks/Nearest greatest to right.py
 
+Geeks for geeks/stacks/Nearest greater to left.py
+
+Geeks for geeks/stacks/nearest smallest to right.py
+
+Geeks for geeks/stacks/nearest smallest to left.py
+
+### `Sept 06, 2020`
