@@ -70,3 +70,9 @@ Geeks for geeks/stacks/Reverse words in a given string.py
 
 Geeks for geeks/stacks/Maximum Rectangular Area in a Histogram.py
 
+### `Sept 07, 2020`
+
+Geeks for geeks/stacks/Max rectangle - binary matrix.py
+
+Geeks for geeks/stacks/trapping rain water.py
+
