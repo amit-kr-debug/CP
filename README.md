@@ -76,3 +76,14 @@ Geeks for geeks/stacks/Max rectangle - binary matrix.py
 
 Geeks for geeks/stacks/trapping rain water.py
 
+### `Sept 08, 2020`
+
+Geeks for geeks/Heap/k closest elements.py
+
+Geeks for geeks/Heap/k largest elements.py
+
+Geeks for geeks/Heap/Kth smallest element.py
+
+Geeks for geeks/Heap/Nearly Sorted Algorithm.py
+
+Geeks for geeks/Heap/Top K Frequent Elements in Array.py
