@@ -87,3 +87,13 @@ Geeks for geeks/Heap/Kth smallest element.py
 Geeks for geeks/Heap/Nearly Sorted Algorithm.py
 
 Geeks for geeks/Heap/Top K Frequent Elements in Array.py
+
+### `Sept 09, 2020`
+
+Geeks for geeks/Heap/Sorting Elements of an Array by Frequency.py
+
+Geeks for geeks/Heap/k closest point to origin.py
+
+Geeks for geeks/Heap/Minimum Cost of ropes.py
+
+Geeks for geeks/Heap/Sum of elements between k1'th and k2'th smallest elements.py
