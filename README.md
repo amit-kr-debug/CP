@@ -97,3 +97,15 @@ Geeks for geeks/Heap/k closest point to origin.py
 Geeks for geeks/Heap/Minimum Cost of ropes.py
 
 Geeks for geeks/Heap/Sum of elements between k1'th and k2'th smallest elements.py
+
+### `Sept 10, 2020`
+
+Geeks for geeks/recursion/Height of Binary Tree.py
+
+Geeks for geeks/recursion/sort an array (recursive approach).py
+
+Geeks for geeks/recursion/Sort a stack.py
+
+Geeks for geeks/recursion/Delete middle element of a stack.py
+
+### `Sept 11, 2020`
