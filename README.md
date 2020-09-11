@@ -109,3 +109,6 @@ Geeks for geeks/recursion/Sort a stack.py
 Geeks for geeks/recursion/Delete middle element of a stack.py
 
 ### `Sept 11, 2020`
+
+Geeks for geeks/recursion/reverse a stack.py
+
