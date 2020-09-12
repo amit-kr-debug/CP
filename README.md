@@ -1,4 +1,4 @@
-# 100 Days Challenge
+# 100 Days of code
 
 ### `Sept 01, 2020`
 
@@ -112,3 +112,10 @@ Geeks for geeks/recursion/Delete middle element of a stack.py
 
 Geeks for geeks/recursion/reverse a stack.py
 
+LeetCode/kth symbol in grammar.py
+
+Geeks for geeks/recursion/Tower of Hanoi.py
+
+### `Sept 12, 2020`
+
+Added email notification system to SmartBuy project
