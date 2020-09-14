@@ -24,17 +24,30 @@ a ab abc ac b bc c
 """
 arr = []
 
+
 def powerSet(output, inp):
     if len(inp) == 0:
         arr.append(output)
         return
+    # print(inp)
+    temp = inp.pop()
     output1 = output
-    output2 = output + inp.pop()
-    powerSet(output1, inp)
-    print(inp)
+    output2 = output + temp
     powerSet(output2, inp)
-    print(inp)
+    powerSet(output1, inp)
+    inp.append(temp)
 
 
-powerSet("","abc")
-print(arr)
+tCases = int(input())
+for _ in range(tCases):
+    n = int(input())
+    str1 = input()
+    arr1 = []
+    arr1[:0] = str1
+    arr1.reverse()
+    powerSet("", arr1)
+    arr.pop()
+    arr.sort()
+    for i in arr:
+        print(i, end=" ")
+    print()

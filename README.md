@@ -119,3 +119,14 @@ Geeks for geeks/recursion/Tower of Hanoi.py
 ### `Sept 12, 2020`
 
 Added email notification system to SmartBuy project
+
+### `Sept 13, 2020`
+
+Interview Questions/Two strings.py
+
+Geeks for geeks/recursion/Power Set.py
+
+Geeks for geeks/recursion/Subsets.py
+
+Geeks for geeks/recursion/Permutation with Spaces.py
+
