@@ -130,3 +130,9 @@ Geeks for geeks/recursion/Subsets.py
 
 Geeks for geeks/recursion/Permutation with Spaces.py
 
+### `Sept 14, 2020`
+
+Geeks for geeks/recursion/permutation with case change.py
+
+Geeks for geeks/recursion/permutation with case change and nums.py
+

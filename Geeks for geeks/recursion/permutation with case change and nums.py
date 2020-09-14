@@ -27,8 +27,8 @@ def caseChange(op, index):
 
 s = input()
 s.lower()
-arr = []
 ans = []
+arr = []
 arr[:0] = s
 caseChange("", 0)
 for i in ans:

@@ -30,7 +30,6 @@ arr = []
 ans = []
 arr[:0] = s
 caseChange("", 0)
-# print(ans)
 for i in ans:
     print(i, end=" ")
 print()
