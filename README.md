@@ -143,3 +143,7 @@ Geeks for geeks/recursion/Game of Death in a circle.py
 ### `Sept 15, 2020`
 
 Geeks for geeks/Dynamic Programming/0 - 1 Knapsack Problem(Memoization Technique).py
+
+### `Sept 16, 2020`
+
+Geeks for geeks/Dynamic Programming/0 - 1 Knapsack Problem(Top Down).py
