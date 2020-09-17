@@ -16,37 +16,18 @@ There exists no subset with sum 4.
 
 
 # User function Template for Python3
-
-class Solution:
-    def equalPartition(self, n, arr):
-        S = sum(arr)
-        if S%2 == 0:
-            S //= 2
-        else:
-            return 0
-        dp = [[False for x in range(S+1)] for y in range(n+1)]
-        for i in range(N+1):
-            dp[i][0] = True
-        for i in range(1, N+1):
-            for j in range(1, S+1):
-                if arr[i-1] <= j:
-                    dp[i][j] = dp[i][j-arr[i-1]] or dp[i-1][j]
-
-                else:
-                    dp[i][j] = dp[i-1][j]
-        for i in dp:
-            print(i)
-        if dp[n][S]:
-            return 1
-        return 0
-
-if __name__ == '__main__':
-    t = int(input())
-    for _ in range(t):
-        N = int(input())
-        arr1 = list(map(int, input().split()))
-        ob = Solution()
-        if ob.equalPartition(N, arr1) == 1:
-            print("YES")
-        else:
-            print("NO")
+def subsetSum(arr, N, S) :
+    dp = [[False for x in range(S + 1)] for y in range(N + 1)]
+    for i in range(N + 1) :
+        dp[i][0] = True
+    for i in range(1, S + 1) :
+        dp[0][i] = False
+    for i in range(1, N + 1) :
+        for j in range(1, S + 1) :
+            if arr[i - 1] <= j :
+                dp[i][j] = dp[i][j - arr[i - 1]] or dp[i - 1][j]
+            else :
+                dp[i][j] = dp[i - 1][j]
+    if dp[N][S] :
+        return 1
+    return 0
