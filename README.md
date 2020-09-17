@@ -147,3 +147,7 @@ Geeks for geeks/Dynamic Programming/0 - 1 Knapsack Problem(Memoization Technique
 ### `Sept 16, 2020`
 
 Geeks for geeks/Dynamic Programming/0 - 1 Knapsack Problem(Top Down).py
+
+### `Sept 17, 2020`
+
+Geeks for geeks/Dynamic Programming/Subset Sum Problem.py
