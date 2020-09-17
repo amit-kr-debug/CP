@@ -139,3 +139,7 @@ Geeks for geeks/recursion/permutation with case change and nums.py
 Geeks for geeks/recursion/Generate All Possible Parentheses.py
 
 Geeks for geeks/recursion/Game of Death in a circle.py
+
+### `Sept 15, 2020`
+
+Geeks for geeks/Dynamic Programming/0 - 1 Knapsack Problem(Memoization Technique).py
