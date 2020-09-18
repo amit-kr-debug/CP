@@ -155,3 +155,10 @@ Geeks for geeks/Dynamic Programming/Subset Sum Problem.py
 Geeks for geeks/Dynamic Programming/Count of Subsets Sum with a Given Sum.py
 
 Geeks for geeks/Dynamic Programming/equal partition subset.py
+
+### `Sept 18, 2020`
+
+Geeks for geeks/Dynamic Programming/Minimum sum partition.py
+
+LeetCode/Target sum.py
+
