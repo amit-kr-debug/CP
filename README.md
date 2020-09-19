@@ -163,3 +163,6 @@ Geeks for geeks/Dynamic Programming/Minimum sum partition.py
 LeetCode/Target sum.py
 
 Geeks for geeks/Dynamic Programming/unbounded knapsack.cpp
+
+Geeks for geeks/Dynamic Programming/Rope cutting.py
+
