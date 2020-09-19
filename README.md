@@ -166,3 +166,8 @@ Geeks for geeks/Dynamic Programming/unbounded knapsack.cpp
 
 Geeks for geeks/Dynamic Programming/Rope cutting.py
 
+### `Sept 19, 2020`
+
+Geeks for geeks/Dynamic Programming/Coin Change - maximum ways.py
+
+Geeks for geeks/Dynamic Programming/coin change - minimum no of coins.py
