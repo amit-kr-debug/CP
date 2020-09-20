@@ -177,3 +177,12 @@ Geeks for geeks/Dynamic Programming/LCS - Memoization.py
 Geeks for geeks/Dynamic Programming/LCS - Top Down.py
 
 Geeks for geeks/Dynamic Programming/Longest common substring.py
+
+### `Sept 20, 2020`
+
+Geeks for geeks/Dynamic Programming/Print LCS.py
+
+Geeks for geeks/Dynamic Programming/Shortest Common Supersequence.py
+
+Geeks for geeks/Dynamic Programming/Minimum number of deletions and insertions.cpp
+
