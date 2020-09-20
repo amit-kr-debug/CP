@@ -175,3 +175,5 @@ Geeks for geeks/Dynamic Programming/coin change - minimum no of coins.py
 Geeks for geeks/Dynamic Programming/LCS - Memoization.py
 
 Geeks for geeks/Dynamic Programming/LCS - Top Down.py
+
+Geeks for geeks/Dynamic Programming/Longest common substring.py
