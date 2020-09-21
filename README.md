@@ -187,3 +187,5 @@ Geeks for geeks/Dynamic Programming/Shortest Common Supersequence.py
 Geeks for geeks/Dynamic Programming/Minimum number of deletions and insertions.cpp
 
 Geeks for geeks/Dynamic Programming/Longest Palindromic Subsequence.cpp
+
+Geeks for geeks/Dynamic Programming/Minimum Deletions.cpp
