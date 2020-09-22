@@ -189,3 +189,8 @@ Geeks for geeks/Dynamic Programming/Minimum number of deletions and insertions.c
 Geeks for geeks/Dynamic Programming/Longest Palindromic Subsequence.cpp
 
 Geeks for geeks/Dynamic Programming/Minimum Deletions.cpp
+
+### `Sept 21, 2020`
+
+Geeks for geeks/strings/LCS with permutations.py
+
