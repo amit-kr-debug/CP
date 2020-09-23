@@ -2,13 +2,17 @@
 Given an array A of N integers, find any 3 elements in it such that A[i] < A[j] < A[k] and i < j < k.
 
 Input:
-The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. The first line of each test case contains an integer N denoting the size of the array A in the next line are N space-separated values of the array A.
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow.
+The first line of each test case contains an integer N denoting the size of the array A in the next line are
+N space-separated values of the array A.
 
 Output:
-For each test case in a new line, the output will be 1 if the sub-sequence returned by the function is present in array A else 0. If the sub-sequence returned by the function is not in the format as mentioned then the output will be -1.
+For each test case in a new line, the output will be 1 if the sub-sequence returned by the function is present in array
+A else 0. If the sub-sequence returned by the function is not in the format as mentioned then the output will be -1.
 
 User Task:
-Your task is to complete the function find3Numbers which finds any 3 elements in it such that A[i] < A[j] < A[k] and i < j < k. You need to return them as a vector, if no such element is present then return the empty vector of size 0.
+Your task is to complete the function find3Numbers which finds any 3 elements in it such that A[i] < A[j] < A[k] and
+i < j < k. You need to return them as a vector, if no such element is present then return the empty vector of size 0.
 
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(N)

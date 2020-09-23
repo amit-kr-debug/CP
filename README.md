@@ -194,3 +194,7 @@ Geeks for geeks/Dynamic Programming/Minimum Deletions.cpp
 
 Geeks for geeks/strings/LCS with permutations.py
 
+### `Sept 22, 2020`
+
+Geeks for geeks/Dynamic Programming/Print SCS.cpp
+
