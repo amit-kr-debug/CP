@@ -199,3 +199,8 @@ Geeks for geeks/strings/LCS with permutations.py
 Geeks for geeks/Dynamic Programming/Print SCS.cpp
 
 Geeks for geeks/Dynamic Programming/Longest repeating subsequence.cpp
+
+### `Sept 23, 2020`
+
+Geeks for geeks/Dynamic Programming/Minimum Insertions.cpp
+
