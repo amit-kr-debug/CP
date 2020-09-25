@@ -204,3 +204,5 @@ Geeks for geeks/Dynamic Programming/Longest repeating subsequence.cpp
 
 Geeks for geeks/Dynamic Programming/Minimum Insertions.cpp
 
+Geeks for geeks/array/Longest consecutive subsequence.py
+
