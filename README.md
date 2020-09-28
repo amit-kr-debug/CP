@@ -230,4 +230,10 @@ hackerrank/Capitalize!.py
 
 hackerrank/word order !.py
 
+### `Sept 27, 2020`
 
+####codeAgon - Hackathons
+
+Geeks for geeks/array/Rearrange array in alternating positive & negative items with O(1) extra space.py
+
+hackerrank/ginortS.py

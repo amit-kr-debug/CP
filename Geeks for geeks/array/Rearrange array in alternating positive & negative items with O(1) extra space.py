@@ -1,4 +1,5 @@
 """
+
 Rearrange array in alternating positive & negative items with O(1) extra space
 
 Input :
@@ -7,14 +8,15 @@ Output :
 arr[] = {-2, 3, -1, 4} OR {-1, 3, -2, 4} OR ..
 
 Input :
+arr[] = {-5, 3, 4, 5, -6, -2, 8, 9, -1, -4}
+Output :
+arr[] = {-5, 3, -2, 5, -6, 4, -4, 9, -1, 8}
+
+Input :
 arr[] = {-2, 3, 1}
 Output :
 arr[] = {-2, 3, 1} OR {-2, 1, 3}
 
-Input :
-arr[] = {-5, 3, 4, 5, -6, -2, 8, 9, -1, -4}
-Output :
-arr[] = {-5, 3, -2, 5, -6, 4, -4, 9, -1, 8}
 """
 
 tCases = int(input())
