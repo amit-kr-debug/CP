@@ -37,6 +37,7 @@ Example Input
 2 1 3
 Example Output
 4
+
 """
 
 

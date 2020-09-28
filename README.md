@@ -237,3 +237,11 @@ hackerrank/word order !.py
 Geeks for geeks/array/Rearrange array in alternating positive & negative items with O(1) extra space.py
 
 hackerrank/ginortS.py
+
+### `Sept 28, 2020`
+
+hackerrank/Compress the string.py
+
+CodeChef/Wormholes - ZCO12002.py
+
+CodeChef/Stupid machine - STUPMACH.py
