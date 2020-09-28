@@ -218,5 +218,11 @@ Geeks for geeks/array/Minimum element in a sorted and rotated array.py
 
 LeetCode/Next Permutation.py
 
+hackerrank/Merge the Tools!.py
+
+hackerrank/No idea.py
+
+hackerrank/Capitalize!.py
+
 
 
