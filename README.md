@@ -224,5 +224,10 @@ hackerrank/No idea.py
 
 hackerrank/Capitalize!.py
 
+### `Sept 26, 2020`
+
+####goldman sachs 2nd round
+
+hackerrank/word order !.py
 
 
