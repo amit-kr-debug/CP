@@ -226,13 +226,13 @@ hackerrank/Capitalize!.py
 
 ### `Sept 26, 2020`
 
-####goldman sachs 2nd round
+#### goldman sachs 2nd round
 
 hackerrank/word order !.py
 
 ### `Sept 27, 2020`
 
-####codeAgon - Hackathons
+#### codeAgon - Hackathons
 
 Geeks for geeks/array/Rearrange array in alternating positive & negative items with O(1) extra space.py
 
