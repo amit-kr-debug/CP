@@ -29,7 +29,6 @@ Input
 Output
 1
 5
-
 """
 
 tCases = int(input())

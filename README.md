@@ -206,3 +206,17 @@ Geeks for geeks/Dynamic Programming/Minimum Insertions.cpp
 
 Geeks for geeks/array/Longest consecutive subsequence.py
 
+### `Sept 24, 2020`
+
+hackerrank/Min Max Riddle.py
+
+Geeks for geeks/array/Longest consecutive subsequence.py
+
+Geeks for geeks/array/Minimum element in a sorted and rotated array.py
+
+### `Sept 25, 2020`
+
+LeetCode/Next Permutation.py
+
+
+
