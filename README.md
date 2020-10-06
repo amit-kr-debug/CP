@@ -1,5 +1,3 @@
-# 100 Days of code
-
 ### `Sept 01, 2020`
 
 Geeks for geeks/array/Maximum profit by buying and selling a share at most k times.py
