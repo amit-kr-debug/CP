@@ -1,5 +1,7 @@
 """
-Given an array A[ ] denoting heights of N towers and a positive integer K, modify the heights of each tower either by increasing or decreasing them by K only once and then find out the minimum difference of the heights of shortest and longest towers.
+Given an array A[ ] denoting heights of N towers and a positive integer K, modify the heights of each tower either by
+increasing or decreasing them by K only once and then find out the minimum difference of the heights of shortest and
+longest towers.
 
 Example
 

@@ -60,7 +60,9 @@ for _ in range(tCases):
         print(0)
 """
 
+
 #two pointer solution timeC = O(n^2) spaceC= O(1)
+
 tCases = int(input())
 for _ in range(tCases):
     n, tSum = map(int, input().split())
