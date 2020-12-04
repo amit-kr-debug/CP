@@ -1,0 +1,47 @@
+inputs = ""
+try:
+    file1 = open("./plates.txt", "r")
+    inputs = file1.readlines()
+except IOError:
+    print("File Read Error : [Errno 2] No such file or directory : 'plates.txt'")
+file2 = open("./valid.txt", "w+")
+file3 = open("./invalid.txt", "w+")
+d = {"A":1, "AA":1, "AB":1, "AD":1, "AR":1, "AM":1, "AW":1, "AY":1,
+     "B":1, "BA":1, "BB":1, "BD":1, "BR":1, "BM":1, "BW":1, "BY":1,
+     "D":1, "DA":1, "DD":1, "DR":1, "DW":1, "DY":1,
+     "R":1, "RA":1, "RR":1, "RM":1, "RW":1, "RY":1,
+     "S":1, "SS":1,
+     "M":1, "MA":1, "MB":1, "MM":1, "MW":1, "MY":1,
+     "W":1, "WA":1, "WB":1, "WW":1,
+     "Y":1, "YA":1, "YB":1, "YD":1, "YR":1,"YW":1, "YY":1,
+     }
+lineNo = 1
+for i in inputs:
+    try:
+        x, y = i.split()
+
+        if x[0] == "0":
+            try:
+                file3.write(x + " " + y + "\n")
+            except IOError:
+                print("File Write Error : [Errno 13] Permission Denied : 'invalid.txt'")
+
+        elif int(x) > 99999:
+            try:
+                file3.write(x + " " + y + "\n")
+            except IOError:
+                print("File Write Error : [Errno 13] Permission Denied : 'invalid.txt'")
+        elif y not in d:
+            try:
+                file3.write(x + " " + y + "\n")
+            except IOError:
+                print("File Write Error : [Errno 13] Permission Denied : 'invalid.txt'")
+        else:
+            try:
+                file2.write(x + " " + y + "\n")
+            except IOError:
+                print("File Write Error : [Errno 13] Permission Denied : 'valid.txt'")
+    except ValueError:
+        print("Parse Error @ line number "+str(lineNo)+" need more than 1 value to unpack:", i)
+
+    lineNo += 1

@@ -1,24 +1,8 @@
-"""
-level 3 foobar
-"""
+import numpy as np
 
+# Taking a 3 * 3 matrix
+A = np.array([[1,2],
+              [3,7]])
 
-def find_max_sum(arr) :
-    incl = 0
-    excl = 0
-
-    for i in arr :
-        # Current max excluding i (No ternary in
-        # Python)
-        new_excl = excl if excl > incl else incl
-
-        # Current max including i
-        incl = excl + i
-        excl = new_excl
-
-        # return max of incl and excl
-    return (excl if excl > incl else incl)
-
-
-arr = list(map(int, input().split()))
-print(find_max_sum(arr))
+# Calculating the inverse of the matrix
+print(np.linalg.inv(A))

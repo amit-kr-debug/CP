@@ -243,3 +243,13 @@ hackerrank/Compress the string.py
 CodeChef/Wormholes - ZCO12002.py
 
 CodeChef/Stupid machine - STUPMACH.py
+
+### `Dec 02, 2020`
+
+Geeks for geeks/strings/Recursively remove all adjacent duplicates.py
+
+Geeks for geeks/strings/Anagram.py
+
+### `Dec 04, 2020`
+
+Geeks for geeks/strings/Longest Common Prefix in an Array.py
