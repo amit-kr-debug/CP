@@ -45,7 +45,7 @@ def match(str1,str2):
 
 for _ in range(int(input())):
     n = int(input())
-    arr = list(map(str,input().split()))
+    arr = list(map(str, input().split()))
     if n == 1:
         print(arr[0])
 

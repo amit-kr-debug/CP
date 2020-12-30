@@ -253,3 +253,12 @@ Geeks for geeks/strings/Anagram.py
 ### `Dec 04, 2020`
 
 Geeks for geeks/strings/Longest Common Prefix in an Array.py
+
+### `Dec 29, 2020`
+
+Geeks for geeks/Tree/Inorder Traversal.py
+
+Geeks for geeks/Tree/Preorder Traversal.py
+
+
+
