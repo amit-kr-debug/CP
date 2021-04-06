@@ -267,6 +267,6 @@ Geeks for geeks/Tree/Preorder Traversal.py
 
 ### `Apr 6, 2021`
 
-[Subarray with given sum.py](Geeks for geeks/array/Subarray with given sum.py)
+Geeks for geeks/array/Subarray with given sum.py
 
 
