@@ -270,3 +270,19 @@ Geeks for geeks/Tree/Preorder Traversal.py
 Geeks for geeks/array/Subarray with given sum.py
 
 
+### `Apr 7, 2021`
+
+Geeks for geeks/array/Move all the negative elements to one side of the array.py
+
+Geeks for geeks/array/sorting 0 1 2.py
+
+### `Apr 19, 2021`
+
+LeetCode/find the duplicate.py
+
+LeetCode/Merge Intervals.py
+
+Geeks for geeks/array/Find Missing And Repeating.py
+
+Geeks for geeks/array/Merge without extra space.py
+
