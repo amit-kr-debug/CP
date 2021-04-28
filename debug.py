@@ -1,4 +1,3 @@
-s = "456"
-a= s[::-1]
-f = int(a)+int(s)
-print(f, a, s)
+a = [1,2, 4, 6,7, 3, 2]
+a[4:] = reversed(a[4:])
+print(a)

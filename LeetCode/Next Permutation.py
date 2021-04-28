@@ -12,12 +12,35 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 1,100000000,5 → 1,5,1
 """
 
-
-class Solution :
-    def nextPermutation(self, nums) -> None :
+class Solution:
+    def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
+        n = len(nums)
+        firstLow = n-1
+        for i in range(n-2,-1,-1):
+            if nums[i+1] > nums[i]:
+                firstLow = i
+                break
+        if firstLow != n-1:
+            leastHighest = 1000000000000
+            index = -1
+            for i in range(firstLow+1, n):
+
+                if nums[i] > nums[firstLow]:
+                    if nums[i]<=leastHighest:
+                        leastHighest = nums[i]
+                        index = i
+            if leastHighest != -1:
+                nums[index], nums[firstLow] = nums[firstLow], nums[index]
+                nums[firstLow+1:] = reversed(nums[firstLow+1:])
+        else:
+            nums.reverse()
+
+"""class Solution :
+    def nextPermutation(self, nums) -> None :
+        
         print(nums)
         index = len(nums) - 1
         fSwap = -1
@@ -58,4 +81,4 @@ class Solution :
 
 ob = Solution()
 
-print(ob.nextPermutation([4,2,4,4,3]))
+print(ob.nextPermutation([4,2,4,4,3]))"""
