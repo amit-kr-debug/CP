@@ -174,7 +174,7 @@ def decrypt(cipher):
 
 print("Playfair Cipher")
 message = input("Enter the message : ")
-message.upper()
+message = message.upper()
 key = input("Enter the key : ")
 print(f"Encrypting: \n Message: {message}")
 print("Break the message into digraphs: ")
