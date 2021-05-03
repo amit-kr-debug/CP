@@ -7,28 +7,27 @@ Input: arr[]   = {2, 0, 2}
 Output: 2
 """
 
-tCases = int(input())
-for t in range(0, tCases):
-    n = int(input())
-    arr = list(map(int, input().split()))
-    # finding the next biggest element in right
-    rMax = [0 for x in range(n)]
-    rMax[n - 1] = arr[n - 1]
-    tempMax = arr[n - 1]
-    for i in range(n - 2, -1, -1):
-        tempMax = max(arr[i], tempMax)
-        rMax[i] = tempMax
-    # finding the next biggest element in left
-    lMax = [0 for x in range(n)]
-    lMax[0] = arr[0]
-    tempMax = arr[0]
-    for i in range(0, n):
-        tempMax = max(arr[i], tempMax)
-        lMax[i] = tempMax
-    water = 0
-    for i in range(0, n-1):
-        water += min(rMax[i], lMax[i]) - arr[i]
-    print(water)
+
+def trappingWater(self,arr,n):
+    # Code here
+    GR = [-1 for i in range(n)]
+    GL = [-1 for i in range(n)]
+    maxR = arr[n - 1]
+    maxL = arr[0]
+    for i in range(1,n):
+        maxL = max(maxL,arr[i])
+        GL[i] = maxL
+
+    for i in range(n - 2,-1,-1):
+        maxR = max(maxR,arr[i])
+        GR[i] = maxR
+
+    trappedWater = 0
+    for i in range(n):
+        temp = min(GR[i],GL[i]) - arr[i]
+        if temp > 0:
+            trappedWater += temp
+    return trappedWater
 
 
 """
