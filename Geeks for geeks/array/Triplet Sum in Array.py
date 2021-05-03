@@ -63,36 +63,21 @@ for _ in range(tCases):
 
 #two pointer solution timeC = O(n^2) spaceC= O(1)
 
-tCases = int(input())
-for _ in range(tCases):
-    n, tSum = map(int, input().split())
-    arr = list(map(int, input().split()))
-    flag = False
-    arr.sort()
-    for i in range(1, n-1):
-        low = 0
+def find3Numbers(self,A,n,X):
+    # Your Code Here
+    ans = False
+    A.sort()
+    for i in range(n - 2):
+        a = A[i]
+        low = i + 1
         high = n - 1
         while low < high:
-            if low == i:
-                low += 1
-                continue
-            if high == i:
+            triplet = A[low] + A[high] + a
+            if triplet == X:
+                ans = True
+                return ans
+            elif triplet > X:
                 high -= 1
-                continue
-            tempSum = arr[low]+arr[high]+arr[i]
-            if tempSum == tSum:
-                print(i, low, high)
-                print(arr[i], arr[low], arr[high])
-                flag = True
-                break
-            elif tempSum < tSum:
+            else:
                 low += 1
-            elif tempSum > tSum:
-                high -= 1
-        if flag:
-            break
-
-    if flag:
-        print(1)
-    else:
-        print(0)
+    return ans
