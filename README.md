@@ -315,3 +315,5 @@ Geeks for geeks/LinkedList/Reverse a Linked List in groups of given size..py
 Geeks for geeks/LinkedList/Check if Linked List is Palindrome.py
 
 Geeks for geeks/LinkedList/Remove the loop from linkedlist.py
+
+Geeks for geeks/LinkedList/Flattening a Linked List.py
