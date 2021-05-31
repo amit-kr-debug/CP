@@ -310,3 +310,6 @@ Geeks for geeks/LinkedList/Intersection Point in Y Shapped Linked Lists.py
 
 Geeks for geeks/LinkedList/Detect Loop in linked list.py
 
+Geeks for geeks/LinkedList/Reverse a Linked List in groups of given size..py
+ 
+
