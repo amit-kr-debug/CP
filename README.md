@@ -312,4 +312,4 @@ Geeks for geeks/LinkedList/Detect Loop in linked list.py
 
 Geeks for geeks/LinkedList/Reverse a Linked List in groups of given size..py
  
-
+Geeks for geeks/LinkedList/Check if Linked List is Palindrome.py
