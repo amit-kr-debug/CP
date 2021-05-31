@@ -306,3 +306,7 @@ Geeks for geeks/LinkedList/Delete a given Node when a node is given.py
 
 Geeks for geeks/LinkedList/Add two numbers represented by linked lists.py
 
+Geeks for geeks/LinkedList/Intersection Point in Y Shapped Linked Lists.py
+
+Geeks for geeks/LinkedList/Detect Loop in linked list.py
+
